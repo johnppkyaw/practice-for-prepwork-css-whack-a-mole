@@ -28,7 +28,6 @@ overflow: hidden;
   margin-top: 241px;
   transition: "margin-top";
   transition-duration: 0.25s;
-
 }
 
 .pf{
@@ -62,3 +61,29 @@ overflow: hidden;
 .sb__game-over--hidden {
   display: none;
 }
+
+/* @keyframes whackAnimation {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+} */
+
+.wgs__mole-head--whacked {
+  height: 241px;
+  width: 241px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: lightblue;
+}
+
+
+/* animation: whackAnimation 0.5s forwards; */
